@@ -27,8 +27,10 @@ class App extends React.Component {
           updateStatus={this.changeStatus}
           status="this.state.logged"
         />
-      );
-    else return <h1>test</h1>;
+      )
+      else{
+        return <h1>test</h1>
+      }
   }
 }
 
