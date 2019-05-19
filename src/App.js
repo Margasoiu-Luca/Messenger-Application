@@ -1,26 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import ReactDOM from "react-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import "./App.css";
+import FirstPage from "./src/PrimaPagina-folder/PrimaPagina.js";
+
+const rootElement = document.getElementById("root");
+
+class App extends React.Component {
+  constructor(props) {
+    super();
+    this.state = {
+      logged: -1
+    };
+  }
+
+  changeStatus = ev => {
+    this.setState({
+      logged: this.state.logged * -1
+    });
+  };
+
+  render() {
+    if (this.state.logged === -1)
+      return (
+        <FirstPage
+          updateStatus={this.changeStatus}
+          status="this.state.logged"
+        />
+      );
+    else return <h1>test</h1>;
+  }
 }
 
 export default App;

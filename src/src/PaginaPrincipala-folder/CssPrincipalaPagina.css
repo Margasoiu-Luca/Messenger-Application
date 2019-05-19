@@ -1,0 +1,56 @@
+#ConfigDiv {
+    width: 20%;
+    display: inline-block;
+    font-size: 2em;
+    border-width: 1px;
+    height: 100%;
+  }
+  
+  #TitleDiv {
+    width: 80%;
+    height: 100%;
+    background-color: #808080;
+    border-right-width: 2px;
+    font-size: 2em;
+    display: inline-block;
+  }
+  #TitleDiv > * {
+    display: inline-block;
+    height: 100%;
+  }
+  
+  #TitleDiv > div {
+    padding-left: 30px;
+  }
+  
+  #ProfilePhoto {
+    border-radius: 50%;
+    height: 80%;
+  }
+  
+  .Menus {
+    height: 85%;
+  }
+  .Menus > div {
+    display: inline-block;
+  }
+  
+  .ExteriorColumn {
+    width: 22%;
+    height: 100%;
+    background-color: blue;
+  }
+  .MainColumn {
+    width: 56%;
+    height: 100%;
+    background-color: red;
+  }
+  #ConfigDiv > img {
+    width: 80%;
+    height: 30%;
+  }
+  
+  #friendSearch {
+    width: 100%;
+  }
+  

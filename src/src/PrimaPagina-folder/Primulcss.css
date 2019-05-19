@@ -1,0 +1,105 @@
+.Header {
+    font-weight: bold;
+    background-color: #4d4d4d;
+    height: 15%;
+    font-size: 2em;
+  }
+  
+  #text-Header {
+    text-align: center;
+    position: relative;
+    padding: 3%;
+  }
+  
+  #center-Div {
+    position: relative;
+    background-color: #262626;
+    height: 75%;
+  }
+  
+  #Second-Div {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #box {
+    position: relative;
+    left: 36%;
+    top: 36%;
+    height: 36%;
+    width: 28%;
+    background-color: #4d4d4d;
+    border-radius: 20%;
+    text-align: center;
+    font-size: 25px;
+  }
+  #box > input {
+    margin-top: 7%;
+    align-content: center;
+    border-radius: 3px;
+  }
+  #box > button {
+    position: relative;
+    margin-top: 5%;
+    align-content: center;
+    border-radius: 10px;
+  }
+  
+  .img-style {
+    width: 20px;
+  }
+  
+  .Header.last {
+    height: 10%;
+  }
+  #Sign-Up {
+    position: relative;
+    transition: 0.1s;
+    cursor: pointer;
+    text-decoration: underline;
+    left: 75%;
+    right: 5%;
+    width: 20%;
+  }
+  
+  #Sign-Up:hover {
+    color: darkblue;
+  }
+  
+  */ {
+    animation: mymove 1.5s;
+  }
+  
+  @keyframes mymove {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  
+  #box2 {
+    position: relative;
+    left: 36%;
+    top: 20%;
+    height: 65%;
+    width: 28%;
+    background-color: #4d4d4d;
+    border-radius: 20%;
+    text-align: center;
+    font-size: 25px;
+  }
+  #box2 > input {
+    margin-top: 7%;
+    align-content: center;
+    border-radius: 3px;
+  }
+  #box2 > button {
+    position: relative;
+    margin-top: 5%;
+    align-content: center;
+    border-radius: 10px;
+  }
+  
